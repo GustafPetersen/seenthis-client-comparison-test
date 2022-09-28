@@ -1,16 +1,24 @@
+@font-face {
+    font-family: "SeenThis Sans";
+    src: url("SeenThisSans-Regular 3.otf") format("otf");
+}
+
 html {
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(-85deg, black, #545454 85%);
+    background: linear-gradient(-160deg, black 15%, #868686);
 }
 h1 {
+    margin: 1%;
+    padding: 1%;
     color: lightgray;
+    font-family: "SeenThis Sans";
 }
 body {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 .content {
     display: flex;
@@ -34,6 +42,7 @@ iframe {
     color: lightgray;
     align-self: center;
     justify-self: center;
+    font-family: "SeenThis Sans";
 }
 
 
