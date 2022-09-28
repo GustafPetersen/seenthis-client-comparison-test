@@ -1,0 +1,95 @@
+<!doctype html>
+<html class="no-js">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="ad.size" content="width=300,height=600">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
+	<link rel="stylesheet" type="text/css" href="./assets/watch/watch.css" />
+	<link rel="stylesheet" type="text/css" href="styles/banner.css" />
+    <!-- Sizmek -->
+
+    <!--<script>EBModulesToLoad = ['Video','EBAPI','EBCMD'];</script>
+        <script type="text/javascript" src="https://secure-ds.serving-sys.com/BurstingScript/EBLoader.js"></script>
+        <script type="text/javascript" src="https://secure-ds.serving-sys.com/BurstingcachedScripts/libraries/greensock/1_19_0/TweenMax.min.js"></script>-->
+
+
+    <!-- Double Click -->
+    <!--
+	    <script type="text/javascript" src="https://s0.2mdn.net/ads/studio/cached_libs/tweenmax_1.20.0_d360d9a082ccc13b1a1a9b153f86b378_min.js"></script> 
+	    <script type="text/javascript" src="https://s0.2mdn.net/ads/studio/Enabler.js"></script> 
+-->
+    <!-- Generic -->
+    <script type="text/javascript">var clickTag = "";</script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
+
+
+    <!------------------------------ HOXTON DATA ------------------------------>
+    <hoxton style="display: none" data='
+        {
+
+            "name" : "300x600 HTMLSM",
+            "adType": "HTML5",
+            "platform":"generic",
+                                            
+            "width": "970",
+		    "height": "250",
+                                                    
+            "backup":                   { "type": "image",    "value": "backup.jpg" },                                                    
+            "logos":                    { "type": "image",    "value": "assets/images/logos.png" },
+            "copy1":                    { "type": "image",    "value": "assets/images/copy1.png" },
+            "copy2":                    { "type": "image",    "value": "assets/images/copy2.png" },
+            
+            "img1":                     { "type": "image",    "value": "assets/images/img1.jpg" },
+            "overlay":                  { "type": "image",    "value": "assets/images/overlay.png" },
+			"watchName":                { "type": "image",    "value": "assets/images/watchName.png" },
+            "perpetual":                { "type": "image",    "value": "assets/images/perpetual.png" },
+            "ctaRollout":               { "type": "image",    "value": "assets/images/ctaRollout.png" },
+            "ctaRollover":              { "type": "image",    "value": "assets/images/ctaRollover.png" },
+            "imageZoomStart":           { "type": "number",    "value": "1" },
+            "imageZoomEnd":             { "type": "number",    "value": "1.1" },
+
+            "cta":                      { "type": "trigger",  "value": "assets/images/ctaRollout.png", "name": "cta"}
+        }
+        '>
+    </hoxton>
+</head>
+
+<body>
+    <div id='mainContainer' class='bgWhite'>
+        <div id="wrapper">
+            <div id='imgContainer' class='sizeImg'>
+                <div id='img1' class='croppedImg'></div>
+				<div id='overlay' class='croppedImg'></div>
+            </div>
+			<div id='copy1' class='sizeFull'></div>
+            <div id="whiteFrame" class="bgWhite sizeFull"></div>
+			<div id="watchHolder" class='sizeImg1 bgGrey'>
+				<div id='globalWatch'>
+					<div id='backgroundHolder'></div>
+					<div id='timepieceHolder'></div>
+				</div>
+            </div>
+			<div id='copy2' class='sizeFull'></div>
+			<div id="watchName" class='sizeFull'></div>
+			<div id='perpetual' class='sizeFull'></div>
+			
+            <div id='logos' class='sizeFull'></div>
+            <div id='border' class='sizeFull'></div>
+            <div id='cta' class='sizeFull'>
+				<div id='ctaRollout' class='sizeFull'></div>
+				<div id='ctaRollover' class='sizeFull'></div>
+				<div id="ctaTrigger" class="btn" style="width: 89px; height: 22px; left: 106px; top: 114px;"></div>
+			</div>
+        </div>
+		 <!--<img src="assets/images/backup.jpg" style="position: absolute; top: 0; left: 0; opacity: 00;" width="970" height="250" class="sizeFull">-->
+    </div>
+    <script type='text/javascript' src='js/lib/hoxton.js'></script>
+    <script type='text/javascript' src='js/lib/utils.js'></script>
+	<script type='text/javascript' src='./assets/watch/watchCode.2.6.7.min.js' charset='utf-8'></script>
+    <script type='text/javascript' src='./assets/watch/watchSetup.js' charset='utf-8'></script>
+    <script type='text/javascript' src='js/banner.js'></script>
+</body>
+
+</html>

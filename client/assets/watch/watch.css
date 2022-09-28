@@ -1,0 +1,26 @@
+#globalWatch {
+  width: 600px;
+  height: 1200px;
+  position: absolute;
+  left:0;
+  top:0;
+  transform-origin: top left;
+  transform:scale(.5)
+}
+
+#timepieceHolder {
+  width: 228px;
+  height: 225.5px;
+  left: 185px;
+  top: 486px;
+  position: absolute;
+  z-index: 1;
+}
+
+#backgroundHolder {
+  background-image: url(img/watch.png);
+  width: 600px;
+  height: 1200px;
+  position: absolute;
+  z-index: 0;
+}

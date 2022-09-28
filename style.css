@@ -1,0 +1,39 @@
+html {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(-85deg, black, #545454 85%);
+}
+h1 {
+    color: lightgray;
+}
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+}
+.content {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+
+}
+.example {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 75px 50px 75px;
+    padding: 20px;
+}
+iframe {
+    width: 300px;
+    height: 600px;
+}
+.title {
+    color: lightgray;
+    align-self: center;
+    justify-self: center;
+}
+
+

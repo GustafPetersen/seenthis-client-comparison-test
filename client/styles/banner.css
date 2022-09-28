@@ -1,0 +1,115 @@
+@charset "UTF-8";
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	outline: 0px;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+* { position: absolute; background-repeat:no-repeat; -webkit-backface-visibility: hidden; }
+* {
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */      
+}
+body { margin: 0px; overflow:hidden; background-color:white; }
+img { width: 100%; height: 100%; }
+
+.bgGrey { background-color: #f4f4f4; }
+.bgWhite { background-color: #ffffff; }
+.bgBlack { background-color: #000000; }
+
+.sizeFull { width: 100%; height: 100%; background-size: contain; overflow:hidden; }
+.sizeImg {
+	top: 10px;
+	left: 10px;
+    width: 280px;
+	height: 492px;
+	background-size: contain;
+	overflow:hidden;
+}
+
+.sizeImg1 {
+	top: 10px;
+	left: 10px;
+    width: 280px;
+	height: 580px;
+	background-size: contain;
+	overflow:hidden;
+}
+
+#bgEnd {
+	top: 10px;
+    left: 10px;
+    width: 280px;
+	height: 492px;
+}
+
+#bgIntro{
+	top: 10px;
+    left: 10px;
+    width: 280px;
+	height: 157px;
+}
+
+.croppedImg {
+	top: -10px;
+	left: -10px;
+	width: 300px;
+	height: 600px;
+	-webkit-transform-origin: 50% 0%;
+	-ms-transform-origin: 50% 0%;
+	transform-origin: 50% 0%;
+}
+
+
+#mainContainer {
+	overflow: hidden;
+	visibility: hidden;
+	width: 300px;
+	height: 600px;
+	cursor:pointer;
+	border: 1px solid #B2B4B6;
+	box-sizing: border-box;
+}
+#watchHolder{
+	opacity: 0;
+}
+#wrapper{width: 300px;height: 600px;top: -1px;left: -1px;}
+
+#border {
+	position: absolute;
+	width:300px;
+	height:600px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	/*! border: 1px solid #B2B4B6; */
+	opacity: 1; cursor: pointer;
+}
+#ctaRollout {}
+#ctaRollover {display:none}
+
+#cta{visibility: visible;}
+
+/* ----------- OTW --------- */
+
+#globalWatch{
+	top: -9px !important;
+    left: -160px !important;
+    transform:scale(.501) !important;
+	transform-origin: top center !important;
+}
